@@ -12,44 +12,39 @@ public class PatientResponseDTO {
         return id;
     }
 
-    public PatientResponseDTO setId(String id) {
+    public void setId(String id) {
         this.id = id;
-        return this;
     }
 
     public String getName() {
         return name;
     }
 
-    public PatientResponseDTO setName(String name) {
+    public void setName(String name) {
         this.name = name;
-        return this;
     }
 
     public String getEmail() {
         return email;
     }
 
-    public PatientResponseDTO setEmail(String email) {
+    public void setEmail(String email) {
         this.email = email;
-        return this;
     }
 
     public String getAddress() {
         return address;
     }
 
-    public PatientResponseDTO setAddress(String address) {
+    public void setAddress(String address) {
         this.address = address;
-        return this;
     }
 
     public String getDateOfBirth() {
         return dateOfBirth;
     }
 
-    public PatientResponseDTO setDateOfBirth(String dateOfBirth) {
+    public void setDateOfBirth(String dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
-        return this;
     }
 }
